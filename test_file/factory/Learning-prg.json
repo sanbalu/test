@@ -1,0 +1,9 @@
+{
+	"name": "Learning-prg",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8a0df5c4-cd9f-4a33-b266-23e9905dfb62",
+		"tenantId": "7c0c36f5-af83-4c24-8844-9962e0163719"
+	}
+}

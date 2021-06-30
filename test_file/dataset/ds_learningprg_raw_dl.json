@@ -1,0 +1,25 @@
+{
+	"name": "ds_learningprg_raw_dl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_leaaringprgdl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "population_data_tsv",
+				"folderPath": "population",
+				"fileSystem": "rawdata"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
